@@ -1,0 +1,30 @@
+[
+    {
+        "elevation" : 25,
+        "points" : 1943
+    }, 
+    {
+        "elevation" : 50,
+        "points" : 1479
+    },
+    {
+        "elevation" : 75,
+        "points" : 1873
+    },
+    {
+        "elevation" : 100,
+        "points" : 1670
+    },
+    {
+        "elevation" : 125,
+        "points" : 628
+    },
+    {
+        "elevation" : 150,
+        "points" : 425
+    },
+    {
+        "elevation" : 175,
+        "points" : 1177
+    }
+]

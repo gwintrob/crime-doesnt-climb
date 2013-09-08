@@ -3,13 +3,16 @@ $(document).ready(function(){
     // Raw Data
     // --------
 
-    var crimes     = [7928, 2996, 2004, 1424, 354, 149, 128];
-    var areas      = [1943, 1479, 1873, 1670, 628, 425, 1177];
     var elevations = [25,   50,   75,   100,  125, 150, 175];
-
     var elevationLabels = _.map(elevations, function (elevation) {
         return elevation + " meters";
     });
+
+    // Crimes from github.com/gwintrob/data/crime-elevation-level-counts.json
+    var crimes     = [7928, 2996, 2004, 1424, 354, 149, 128];
+
+    // Areas from github.com/gwintrob/data/area-elevation-level-counts.json
+    var areas      = [1943, 1479, 1873, 1670, 628, 425, 1177];
 
     var normalize = function (array, normalizer) {
         return _.map(array, function (val) {

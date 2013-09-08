@@ -1,0 +1,30 @@
+[
+    {
+        "elevation" : 25,
+        "crimes" : 7928
+    }, 
+    {
+        "elevation" : 50,
+        "points" : 2996
+    },
+    {
+        "elevation" : 75,
+        "points" : 2004
+    },
+    {
+        "elevation" : 100,
+        "points" : 1424
+    },
+    {
+        "elevation" : 125,
+        "points" : 354
+    },
+    {
+        "elevation" : 150,
+        "points" : 149
+    },
+    {
+        "elevation" : 175,
+        "points" : 128
+    }
+]
