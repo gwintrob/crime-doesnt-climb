@@ -126,8 +126,6 @@ When normalizing for land mass at different elevations, we found that the trend 
 
 ![San Francisco crime per elevation level per land area](https://dl.dropboxusercontent.com/u/34372/crime-doesnt-climb/crimes-per-elevation-level-per-land-area.png)
 
+- [Gordon Wintrob](https://twitter.com/gwintrob "Gordon Wintrob") and [Peter Reinhardt](https://twitter.com/reinpk "Peter Reinhardt") at the [Segment.io](https://segment.io/ "Segment.io") hackathon
+
 [homelessness]: http://en.wikipedia.org/wiki/Homelessness_in_the_United_States#cite_note-SFPTACH-112 "Homelessness in the US"
-
-
-
-
