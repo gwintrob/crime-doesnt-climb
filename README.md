@@ -129,3 +129,12 @@ When normalizing for land mass at different elevations, we found that the trend 
 - [Gordon Wintrob](https://twitter.com/gwintrob "Gordon Wintrob") and [Peter Reinhardt](https://twitter.com/reinpk "Peter Reinhardt") at the [Segment.io](https://segment.io/ "Segment.io") hackathon
 
 [homelessness]: http://en.wikipedia.org/wiki/Homelessness_in_the_United_States#cite_note-SFPTACH-112 "Homelessness in the US"
+
+## Data Update: Census Comparison
+
+Now included in [the data directory](data/) is [crime data summarized by 2010 census block](data/sfcrime_blocks.geojson). Within this dataset are additional attributes including 2010 total population from [the US Census](http://www.census.gov/geo/maps-data/data/tiger.html), block area, mean elevation (derived directly from [the USGS National ELevation Dataset at 1/9 arc-second](http://ned.usgs.gov/)), and several derivatives including population density and crime density.
+Also included is a "Crime Index", calculated as the area-normalized crime count divided by the area-normalized population, at the level of the census block.
+
+![San Francisco crime index vs. elevation](https://dl.dropboxusercontent.com/u/23616645/Geosprocket_Share/2013-09-14_1128.png)
+
+An interactive comparison of the crime index with elevation [can be found here](http://geosprocket.cartodb.com/viz/23998aac-1d46-11e3-b1a5-6805ca04cef1/embed_map?title=true&description=true&search=false&shareable=true&cartodb_logo=true&layer_selector=true&legends=true&scrollwheel=true&sublayer_options=1|1&sql=&sw_lat=37.733525549595306&sw_lon=-122.4707794189453&ne_lat=37.79730575499309&ne_lon=-122.30598449707031).
